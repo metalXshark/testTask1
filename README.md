@@ -1,5 +1,13 @@
 # TestTask1
 
+## Скриншоты
+![Фото 1](https://github.com/metalXshark/testTask1/blob/master/1%20(2).jpg)
+![Фото 2](https://github.com/metalXshark/testTask1/blob/master/2%20(2).jpg)
+![Фото 3](https://github.com/metalXshark/testTask1/blob/master/3%20(2).jpg)
+![Фото 4](https://github.com/metalXshark/testTask1/blob/master/4%20(2).jpg)
+![Фото 5](https://github.com/metalXshark/testTask1/blob/master/5.jpg)
+![Фото 6](https://github.com/metalXshark/testTask1/blob/master/6.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
 
 ## Development server
