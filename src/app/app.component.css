@@ -1,0 +1,123 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Контейнер для всего контента */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Форма поиска и фильтра */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Выравнивание по центру вертикально */
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 90%;  /* Поиск 90% ширины */
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 9%;  /* Фильтр 10% ширины */
+  margin-right: 0; /* Убираем отступ справа */
+  appearance: none; /* Убираем стандартную стрелку */
+  -webkit-appearance: none; /* Для Safari */
+  -moz-appearance: none; /* Для Firefox */
+}
+
+/* Сообщение об отсутствии пользователя */
+.no-results-message {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Список пользователей */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #d1f3d8;  /* Измененный цвет при наведении */
+}
+
+/* Детали пользователя */
+.user-details {
+  background-color: #eef2f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #555;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Кнопка закрытия */
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e55d4e;
+}
